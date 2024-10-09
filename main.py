@@ -334,7 +334,7 @@ plt.title('Heatmap')
 plt.figure()
 plt.subplot(1, 3, 2)
 for i in range(size_f):
-    plt.plot(a[i,:])
+    plt.plot(f[i,:])
 plt.title('Line Plot')
 
 # Третий график - гистограмма значений матрицы
